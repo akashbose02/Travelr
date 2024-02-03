@@ -25,7 +25,7 @@
    * typography
    */
 
-  --ff-abril-fatface: 'Abril Fatface', cursive;
+  --ff-abril-fatface: 'Cinzel', cursive;
   --ff-comforter-brush: 'Comforter Brush', cursive;
   --ff-heebo: 'Heebo', sans-serif;
   --ff-verdana: 'verdana', sans-serif;
@@ -303,11 +303,11 @@ body {
   align-items: center;
 }
 
-.logo {
+/* .logo {
   color: var(--white-1);
   font-size: var(--fs-2);
   font-weight: var(--fw-600);
-}
+} */
 
 .nav-toggle-btn.active .open,
 .nav-toggle-btn .close { display: none; }
