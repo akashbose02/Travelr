@@ -163,7 +163,7 @@ body {
 .btn-primary {
   --background: rgb(76, 240, 153);
   --color: rgb(242, 242, 248);
-  --border-color: var(--oxford-blue);
+  --border-color: var(--white-1);
 }
 
 .btn-primary:is(:hover, :focus) {
@@ -303,11 +303,6 @@ body {
   align-items: center;
 }
 
-/* .logo {
-  color: var(--white-1);
-  font-size: var(--fs-2);
-  font-weight: var(--fw-600);
-} */
 
 .nav-toggle-btn.active .open,
 .nav-toggle-btn .close { display: none; }
@@ -362,7 +357,9 @@ body {
   background-position: bottom left, top right;
 }
 
-.hero-content { margin-bottom: 50px; }
+.hero-content { 
+  background-color: var(--white-1);
+  margin-bottom: 50px; }
 
 .hero .section-subtitle { margin-bottom: 15px; }
 
@@ -377,7 +374,7 @@ body {
 }
 
 .hero-text {
-  color: rgb(13, 5, 247);
+  color: rgb(22, 22, 82);
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fs-7);
   font-weight: 200;
@@ -585,7 +582,7 @@ body {
 \*-----------------------------------*/
 
 .footer {
-  background-image: linear-gradient(rgb(0,0,0),var(--white-1));
+  background-image: linear-gradient(rgb(5, 95, 58),var(--black-coral));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -632,7 +629,7 @@ body {
 
 .newsletter-input:focus {
   outline: none;
-  box-shadow: 0 0 0 5px hsla(216, 98%, 52%, 0.25);
+  box-shadow: 0 0 0 5px hsla(0, 0%, 97%, 0.25);
 }
 
 .newsletter-form .btn-primary {
@@ -643,7 +640,7 @@ body {
 }
 
 .newsletter-form .btn-primary:is(:hover, :focus) {
-  --background: rgb(14, 47, 215);
+  --background: rgb(116, 7, 67);
   --color: var(--white-1);
 }
 
