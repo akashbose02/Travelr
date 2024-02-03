@@ -644,7 +644,7 @@ body {
 }
 
 .newsletter-form .btn-primary:is(:hover, :focus) {
-  --background: rgb(14, 47, 215);
+  --background: rgb(104, 7, 67);
   --color: var(--white-1);
 }
 
