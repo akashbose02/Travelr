@@ -120,7 +120,7 @@ html {
 
 body {
   /* background: var(--white-1); */
-  background-image: url('assets\images\bg-image.jpg');
+  background-image: url("assets\images\bg-image.jpg");
 
   font-size: 1.8rem;
 }
@@ -375,9 +375,10 @@ body {
 }
 
 .hero-text {
-  color: rgb(247, 5, 5);
+  color: rgb(13, 5, 247);
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fs-7);
+  font-weight: 200;
   line-height: 1.7;
   margin-bottom: 15px;
 }
@@ -414,7 +415,7 @@ body {
 
 .destination-card {
   position: relative;
-  border-radius: var(--radius-6);
+  border-radius: var(--radius-9);
   overflow: hidden;
 }
 
@@ -440,7 +441,7 @@ body {
 
 .destination-card .card-subtitle {
   color: var(--mikado-yellow);
-  font-family: var(--ff-comforter-brush);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: var(--fs-5);
 }
 
@@ -461,13 +462,13 @@ body {
   color: var(--white-1);
   font-size: var(--fs-8);
   padding: 5px 8px;
-  border-radius: var(--radius-6);
+  border-radius: var(--radius-9);
 }
 
 .popular-card .card-price { background: var(--viridian-green); }
 
 .popular-card .card-rating {
-  background: var(--mikado-yellow);
+  background: rgb(86, 61, 3);
   display: flex;
   align-items: center;
   gap: 2px;
