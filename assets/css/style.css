@@ -582,7 +582,7 @@ body {
 \*-----------------------------------*/
 
 .footer {
-  background-color: var(--oxford-blue);
+  background-image: linear-gradient(rgb(0,0,0),var(--white-1));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -599,7 +599,7 @@ body {
 }
 
 .footer-list-title {
-  color: var(--white-1);
+  color: rgb(255, 255, 255);
   font-size: var(--fs-4);
   font-weight: var(--fw-600);
   margin-bottom: 15px;
@@ -610,12 +610,12 @@ body {
   padding-block: 5px;
 }
 
-.footer .footer-link:is(:hover, :focus) { color: var(--white-1); }
+.footer .footer-link:is(:hover, :focus) { color: rgb(133, 119, 119); }
 
 .newsletter-text {
   font-size: var(--fs-7);
   margin-bottom: 30px;
-  line-height: 1.7;
+  line-height: 1.2;
 }
 
 .newsletter-form { position: relative; }
@@ -640,7 +640,7 @@ body {
 }
 
 .newsletter-form .btn-primary:is(:hover, :focus) {
-  --background: var(--viridian-green);
+  --background: rgb(14, 47, 215);
   --color: var(--white-1);
 }
 
