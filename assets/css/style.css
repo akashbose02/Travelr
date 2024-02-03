@@ -161,6 +161,7 @@ body {
 }
 
 .btn-primary {
+  
   --background: rgb(76, 240, 153);
   --color: rgb(242, 242, 248);
   --border-color: var(--white-1);
