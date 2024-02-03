@@ -498,8 +498,11 @@ body {
 
 .about-text,
 .about-item-text {
-  color: var(--battleship-gray);
+  color: rgb(18, 87, 12);
+  font-size: medium;
+  font-weight: 300;
   font-size: var(--fs-6);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.7;
 }
 
@@ -514,11 +517,11 @@ body {
 .about-item {
   display: flex;
   align-items: flex-start;
-  gap: 15px;
+  gap: 10px;
 }
 
 .about-item-icon {
-  background: var(--viridian-green);
+  background: rgb(231, 12, 140);
   color: var(--white-1);
   font-size: 26px;
   padding: 16px;
@@ -561,7 +564,7 @@ body {
 }
 
 .btn-link {
-  color: var(--viridian-green);
+  color: rgb(209, 33, 200);
   font-weight: var(--fw-700);
   display: flex;
   justify-content: flex-end;
