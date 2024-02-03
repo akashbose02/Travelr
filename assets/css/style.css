@@ -119,7 +119,9 @@ html {
 }
 
 body {
-  background: var(--white-1);
+  /* background: var(--white-1); */
+  background-image: url('assets\images\bg-image.jpg');
+
   font-size: 1.8rem;
 }
 
@@ -279,9 +281,10 @@ body {
 \*-----------------------------------*/
 
 .header {
-  background: var(--viridian-green);
-  padding-block: 20px;
-  height: 88px;
+  background-image: linear-gradient( #0f0c29,#302b63,#24243e);
+  background-repeat: repeat;
+  padding-block: 25px;
+  height: 100px;
   overflow: hidden;
   transition: 0.25s var(--cubic-out);
 }
@@ -362,7 +365,7 @@ body {
 .hero .section-subtitle { margin-bottom: 15px; }
 
 .hero-title {
-  color: var(--oxford-blue);
+  color: rgb(248, 5, 231);
   font-size: var(--fs-1);
   font-family: var(--ff-abril-fatface);
   font-weight: var(--fw-500);
@@ -372,7 +375,8 @@ body {
 }
 
 .hero-text {
-  color: var(--black-coral);
+  color: rgb(247, 5, 5);
+  font-family: 'Times New Roman', Times, serif;
   font-size: var(--fs-7);
   line-height: 1.7;
   margin-bottom: 15px;
