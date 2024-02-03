@@ -628,7 +628,7 @@ body {
 
 .newsletter-input {
   background: var(--white-1);
-  border-radius: var(--radius-6);
+  border-radius: var(--radius-9);
   padding: 24px;
   color: var(--eerie-black);
 }
@@ -646,7 +646,7 @@ body {
 }
 
 .newsletter-form .btn-primary:is(:hover, :focus) {
-  --background: rgb(14, 47, 215);
+  --background: rgb(87, 208, 36);
   --color: var(--white-1);
 }
 
