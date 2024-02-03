@@ -533,7 +533,8 @@ body {
   #BLOG
 \*-----------------------------------*/
 
-.blog { padding-bottom: 100px; }
+.blog { 
+  padding-bottom: 100px; }
 
 .blog-card .author-wrapper {
   display: flex;
