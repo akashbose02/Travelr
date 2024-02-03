@@ -119,12 +119,8 @@ html {
 }
 
 body {
-  background-image: url('./assets/images/bg-image.jpg');
   background-repeat: repeat;
   background: var(--white-1);
-  /* background: var(--white-1); */
-  background-image: url("assets\images\bg-image.jpg");
-
   font-size: 1.8rem;
 }
 .mainlogo{
