@@ -481,6 +481,9 @@ body {
 .popular-card .card-rating data { margin-left: 4px; }
 
 .popular-card .card-location { color: var(--spanish-gray); }
+.popular-card img { transition: var(--transition-2); }
+
+.popular-card:is(:hover, :focus) img { transform: scale(1.1); }
 
 
 
